@@ -1,0 +1,21 @@
+{
+  "name": "nodelic",
+  "version": "0.1.0",
+  "description": "Nodelic API",
+  "main": "none yet",
+  "bin": {
+    "nodelic": "api.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dacxie/nodelic.git"
+  },
+  "author": "Dacxie",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/dacxie/nodelic/issues"
+  }
+}
