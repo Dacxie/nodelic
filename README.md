@@ -7,7 +7,7 @@ yes, no <code>listen</code> yet
 ```coffeescript
     api = require('nodelic').api
     # Login
-    key = api.login('Test', 'mypassword', 123)._ # You've got the key
+    key = api.login('Test', 'mypassword', 123)._
     # Say something
     api.msg key, 123, 'ah ah'
     # Kick someone
