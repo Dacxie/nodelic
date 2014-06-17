@@ -4,6 +4,7 @@ Usage (Not finished, may change)
 -------------
 yes, no <code>listen</code> yet
 
+```coffeescript
     api = require('nodelic').api
     # Login
     key = api.login('Test', 'mypassword', 123)._ # You've got the key
@@ -17,5 +18,5 @@ yes, no <code>listen</code> yet
     api.color key, 123, null
     # Logout
     api.logout key, 123
-    
+```
     
