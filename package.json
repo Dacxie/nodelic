@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Nodelic API",
   "main": "none yet",
+  "dependencies": {
+    "utf8": ">= 2.0.0"
+    "http-sync": ">= 0.0.4"
+  }
   "bin": {
     "nodelic": "api.js"
   },
