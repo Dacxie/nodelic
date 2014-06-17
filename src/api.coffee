@@ -1,6 +1,6 @@
-# NodelicAPI v0.1.0
+# NodelicAPI v0.1.1
 
-vs = '0.1.0'
+vs = '0.1.1'
 
 hs = require 'http-sync'
 en = require 'utf8'
@@ -44,6 +44,11 @@ exports.api =
             chat:   chat
             _:      skey
             msg:    msg
+    listen: (skey, chat) ->
+        rq @path.listen,
+            act:    'listen'
+            chat:   chat
+            _:      skey
     status: (skey, chat, status) ->
         rq @path.action,
             act:    'setStatus'
@@ -84,4 +89,3 @@ exports.api =
             name:   who
             why:    why
             moderCommand: 'warn'
-        
