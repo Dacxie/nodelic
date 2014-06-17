@@ -2,7 +2,6 @@ Nodelic
 =============
 Usage (Not finished, may change)
 -------------
-yes, no <code>listen</code> yet
 
 ```coffeescript
     api = require('nodelic').api
