@@ -1,4 +1,4 @@
-Nodelic
+Nodelic - Synchronous API for chatadelic.net
 =============
 Usage (Not finished, may change)
 -------------
